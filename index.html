@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OkoaInstant - Smart Finance, Instantly</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+
+    body {
+      background-color: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #007BFF;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .hero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 60px 20px;
+      background: #fff;
+    }
+
+    .hero img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 16px;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .hero h2 {
+      font-size: 2rem;
+      margin: 20px 0 10px;
+    }
+
+    .hero p {
+      max-width: 600px;
+      margin-bottom: 20px;
+    }
+
+    .cta-btn {
+      padding: 12px 30px;
+      background-color: #28a745;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .cta-btn:hover {
+      background-color: #218838;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      padding: 60px 20px;
+      background: #f8f9fa;
+    }
+
+    .feature {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      text-align: center;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+    }
+
+    .feature img {
+      width: 60px;
+      margin-bottom: 15px;
+    }
+
+    footer {
+      background: #343a40;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+      font-size: 0.9rem;
+    }
+
+    @media (min-width: 768px) {
+      .hero {
+        flex-direction: row;
+        text-align: left;
+        justify-content: space-between;
+      }
+
+      .hero-text {
+        max-width: 50%;
+        padding-right: 30px;
+      }
+
+      .hero img {
+        max-width: 45%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>OkoaInstant</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#features">Features</a>
+      <a href="#download">Download</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h2>Smart Finance. Instant Access.</h2>
+      <p>Take control of your money with OkoaInstant – your intelligent companion for budgeting, tracking, and achieving your financial goals faster.</p>
+      <button class="cta-btn">Get Started</button>
+    </div>
+    <img src="https://images.unsplash.com/photo-1556742400-b5a63d7c5e5a" alt="Finance App Illustration">
+  </section>
+
+  <section class="features" id="features">
+    <div class="feature">
+      <img src="https://img.icons8.com/fluency/48/money.png" alt="Budgeting">
+      <h3>Budgeting</h3>
+      <p>Set spending limits and track expenses easily to stay on top of your finances.</p>
+    </div>
+    <div class="feature">
+      <img src="https://img.icons8.com/fluency/48/data-in-both-directions.png" alt="Sync">
+      <h3>Real-Time Sync</h3>
+      <p>Access your data securely across all your devices with instant sync.</p>
+    </div>
+    <div class="feature">
+      <img src="https://img.icons8.com/fluency/48/artificial-intelligence.png" alt="AI Assistance">
+      <h3>AI Assistant</h3>
+      <p>Get intelligent insights and personalized tips powered by AI.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 OkoaInstant. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
